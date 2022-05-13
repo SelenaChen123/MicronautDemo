@@ -1,0 +1,16 @@
+micronaut:
+  executors:
+    io:
+      type: fixed
+      nThreads: 75
+  server:
+    cors:
+      enabled: true
+jpa:
+  default:
+    entity-scan:
+      packages: 'check.list.models'
+flyway:
+  datasources:
+    default:
+      enabled: true

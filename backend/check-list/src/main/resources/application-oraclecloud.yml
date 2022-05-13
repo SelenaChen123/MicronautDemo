@@ -1,0 +1,6 @@
+datasources:
+  default:
+    ocid: ocid1.autonomousdatabase.oc1.iad.anuwcljtsm4floqaanhxodsayo65mmwt27qpbvxj45mlghioxur22ndqunnq
+    walletPassword: ${ATP_ADMIN_PASSWORD}
+    username: todoDemo
+    password: ${ATP_USER_PASSWORD}
